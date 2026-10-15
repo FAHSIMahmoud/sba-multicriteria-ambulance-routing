@@ -1,0 +1,11 @@
+scenario,set,lang,d,best,ms_median,solved_pct,runner_up
+OSM,T-B,C/C++,2,NAMOA*dr,1.338,100.0,BOA*
+OSM,T-B,Python,2,Martins (py),10.496190000026218,100.0,BOA* (py)
+OSM,T-I,C/C++,2,BOA*,1.544,100.0,NAMOA*dr
+OSM,T-I,Python,2,Martins (py),13.815305000036915,100.0,BOA* (py)
+OSM,T-B-I,C/C++,3,EMOA*,13.7915,100.0,-
+OSM,T-B-I,Python,3,Martins (py),14.520619499990062,100.0,LTMOA* (py)
+OSM,T-B-S-St,C/C++,4,EMOA*,17.9625,100.0,-
+OSM,T-B-S-St,Python,4,Martins (py),15.373504500018953,100.0,NAMOA*dr (py)
+OSM,T-B-S-St-U,C/C++,5,EMOA*,21.179499999999997,100.0,-
+OSM,T-B-S-St-U,Python,5,Martins (py),14.547593999964192,100.0,LTMOA* (py)

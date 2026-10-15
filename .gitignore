@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+bin_src/
+results/_work/
+results/reproduced/
+results/latex_rows/
+*.gr
+*_boa.txt

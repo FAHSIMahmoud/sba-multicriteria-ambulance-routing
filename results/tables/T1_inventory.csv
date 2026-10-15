@@ -1,0 +1,20 @@
+,value
+barrier_nodes_all,3
+barrier_types,{'gate': 3}
+closed_barrier_nodes_removed,0
+access_closed_arcs_removed,0
+bump_ways_matched,0
+nodes_bump,21
+nodes_signal,19
+nodes_stop,17
+nodes_crossing,6
+nodes,5683
+arcs,15792
+km_directed,1184.5414263556866
+oneway_arcs_pct,9.207193515704153
+maxspeed_tagged_pct,7.820415400202635
+surface_tagged_pct,20.497720364741642
+unpaved_km,0.0
+arcs_with_bump,23
+arcs_with_signal,47
+arcs_with_stop,28

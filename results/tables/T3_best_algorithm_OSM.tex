@@ -1,0 +1,26 @@
+\begin{table}
+\caption{Fastest exact algorithm per objective set}
+\label{tab:T3_best_algorithm_OSM}
+\begin{tabular}{lllrlrrl}
+\toprule
+ &  &  & d & best & ms_median & solved_pct & runner_up \\
+scenario & set & lang &  &  &  &  &  \\
+\midrule
+\multirow[t]{10}{*}{OSM} & \multirow[t]{2}{*}{T-B} & C/C++ & 2 & NAMOA*dr & 1.34 & 100.00 & BOA* \\
+ &  & Python & 2 & Martins (py) & 10.50 & 100.00 & BOA* (py) \\
+\cline{2-8}
+ & \multirow[t]{2}{*}{T-I} & C/C++ & 2 & BOA* & 1.54 & 100.00 & NAMOA*dr \\
+ &  & Python & 2 & Martins (py) & 13.82 & 100.00 & BOA* (py) \\
+\cline{2-8}
+ & \multirow[t]{2}{*}{T-B-I} & C/C++ & 3 & EMOA* & 13.79 & 100.00 & - \\
+ &  & Python & 3 & Martins (py) & 14.52 & 100.00 & LTMOA* (py) \\
+\cline{2-8}
+ & \multirow[t]{2}{*}{T-B-S-St} & C/C++ & 4 & EMOA* & 17.96 & 100.00 & - \\
+ &  & Python & 4 & Martins (py) & 15.37 & 100.00 & NAMOA*dr (py) \\
+\cline{2-8}
+ & \multirow[t]{2}{*}{T-B-S-St-U} & C/C++ & 5 & EMOA* & 21.18 & 100.00 & - \\
+ &  & Python & 5 & Martins (py) & 14.55 & 100.00 & LTMOA* (py) \\
+\cline{1-8} \cline{2-8}
+\bottomrule
+\end{tabular}
+\end{table}
